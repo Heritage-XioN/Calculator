@@ -9,24 +9,24 @@
 </head>
 <body>
   <div class="container">
-    <div class="display">0</div>
+    <div id="display" class="display"></div>
     <div class="calculator_keys">
       <div class="num">
-        <button class="btn gray one">1</button>
-      <button class="btn gray two">2</button>
-      <button class="btn gray three">3</button>
-      <button class="btn gray four">4</button>
-      <button class="btn gray five">5</button>
-      <button class="btn gray six">6</button>
-      <button class="btn gray seven">7</button>
-      <button class="btn gray eight">8</button>
-      <button class="btn gray nine">9</button>
-      <button class="btn gray zero">0</button>
-      <button class="btn gray dot">.</button>
+        <button class="btn gray one" onclick="show(1)">1</button>
+      <button class="btn gray two" onclick="show(2)">2</button>
+      <button class="btn gray three" onclick="show(3)">3</button>
+      <button class="btn gray four" onclick="show(4)">4</button>
+      <button class="btn gray five"onclick="show(5)">5</button>
+      <button class="btn gray six" onclick="show(6)">6</button>
+      <button class="btn gray seven" onclick="show(7)">7</button>
+      <button class="btn gray eight" onclick="show(8)">8</button>
+      <button class="btn gray nine"onclick="show(9)">9</button>
+      <button class="btn gray zero" onclick="show(0)">0</button>
+       <button class="btn gray dot">.</button>
       <button class="btn gray equal_to">=</button>
       </div>
       <div class="operator">
-      <button class="btn lightgrey delete">Del</button>
+      <button class="btn lightgrey delete">DEL</button>
       <button class="btn lightgrey divide">÷</button>
       <button class="btn lightgrey multiply">×</button>
       <button class="btn lightgrey minus">-</button>
@@ -35,5 +35,6 @@
       <div class="special"></div>
     </div>
   </div>
+  <script src="./index.js"></script>
 </body>
 </html>
